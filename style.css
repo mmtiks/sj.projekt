@@ -1,0 +1,318 @@
+body,div,ul,li,nav{
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:100%;
+  font:inherit;
+  font-family: 'Montserrat', sans-serif;
+}
+h4{
+  margin-left:30px;
+  text-align:center;
+  font-size:30px;
+}
+ul{
+  font-size: 20px;
+}
+
+.rcorners2{
+  border:20px;
+  background:white;
+}
+
+.rcorners3{
+  border-radius:20px;
+  background:#AA14F0;
+}
+
+header,html{
+  position:relative;
+  font-family: Garamond, ;
+    background: rgb(248,248,248);
+
+}
+header{
+  position:relative;   
+}
+/*NAV*/
+
+#nav-wrap{
+  width:100%;
+  position:fixed;
+  top:30px;
+  left:1%px;
+}
+.nav-btn{
+  position:relative;
+  left:10%;
+    width:30%;
+    padding:20px 0;
+    text-align:center;
+    cursor:pointer;
+    font-size:23px;
+}
+#pealkiri li{
+  display:inline;
+  float:left;
+}
+#upquotes{
+  position:relative;
+  top:18px;
+  font-size:20px;
+  
+}
+#quotediv{
+  position:relative;
+  height:100px;
+  white-space: nowrap;
+  overflow:hidden;
+  left:-7%;
+}
+#neli2{
+  position:relative;
+  border: solid black 4px;
+  background:#AA14F0;
+  left:1%;
+  height:60px;
+  width:90;
+}
+#n1{
+  position:relative;
+  left:-2%;
+  top:-20px;
+  font-weight:900;
+  font-size:50px;
+}
+#lingid{
+  width:12%;
+  position:absolute;
+  left:5%;
+  min-width:90px;
+  border: solid black 5px;
+  height:300px;
+  background-color: rgba(255,255,255,0.8);
+
+}
+#tekstid{
+  position:relative;
+  top: 90px;
+}
+/*ALGUS */
+#checkers1{
+  position:relative;
+  z-index:-10;
+  width:30%;
+  height:100vh;
+  float:right;
+  background: repeating-conic-gradient(white 0% 25%, black 0% 50%) 
+              50% / 30vh 30vh;
+  text-align:center;
+  overflow:hidden;
+}
+.sidetitle{
+  position:relative;
+  top:15%;
+  font-size:40px;
+  color: #BC8CF2;
+  text-shadow: 3px 3px black;
+}
+#algpilt{
+  float:left;
+  width:70%;
+  overflow:hidden;
+  position:relative;
+  z-index:-1;
+  height:100vh;
+  background:rgb(248,248,248);
+}
+#nupud{
+  z-index:-1200;
+  width:100%;
+}
+
+/* KESK */
+
+#sisu{
+  position:relative;
+  z-index:-14;
+  top:-16px;
+  float:right;
+  background:#BC8CF2;
+  display: flex;
+}
+#mainsisu{
+  display:flex;
+}
+#maintext{
+  padding:40px;
+  line-height:1.6;
+}
+.pildipaar{
+  cursor:pointer;
+  position:relative;
+  display:flex;
+  justify-content: space-around;
+  width:100%;
+
+}
+.raam1{
+  position:relative;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 40%;
+  justify-content:center;
+}
+.tekstipilt{
+  padding:10px;
+  width:95%;
+}
+#tekstipilt1{
+  float:left;
+}
+#tekstipilt2{ 
+  float:right;
+}
+h3{
+  text-align:center;
+  padding:20px;
+}
+
+#loeveel{
+  cursor:pointer;
+  position:relative;
+  top:-20px;
+  width:fit-content;
+  padding:10px;
+  color:black;
+  margin-top:60px;
+  margin-bottom:60px;
+  left:45%;
+}
+
+#pildid{
+  cursor:pointer;
+  position:relative;
+  display:flex;
+  justify-content: space-around;
+  width:100%;
+}
+#pilt1,#pilt2,#pilt3{
+  width:100%;
+}
+#pilt2,#pilt3{
+  width:290px;
+  min-width:290px;
+  border:solid rgb(237,235,233) 5px;
+}
+#pilt2{
+  transform:rotate(180deg);
+  height: 290px; 
+  object-fit: cover; 
+  object-position: 70% 0;
+}
+.raam{
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+}
+.caption{
+  display:block;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/*FOOTER */
+#filler{
+  width:100px;
+  height:50px;
+}
+.footer {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+}
+
+#malelauadiv{
+  width:100%;
+  justify-content:center;
+  text-align:center;
+}
+.malelaud{
+
+}
+.rida{
+    margin-bottom: -5px;
+}
+.ruut{
+            background-color: white;
+            width: 75px;
+            height: 75px;
+            margin: -2px;
+            border: 1px solid black;
+            display: inline-block;
+            margin:-2px;
+            font-size: 60px;
+            text-align: center;
+        }
+        .must{
+            background-color: black;
+            color: white;
+                }
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 600%;
+  background-color: #555;
+  color: #fff;
+  text-align: left;
+  padding: 5px 0;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 5px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition:z opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
