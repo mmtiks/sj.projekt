@@ -12,9 +12,11 @@ h4{
   font-size:30px;
 }
 ul{
-  font-size: 20px;
+  list-style:none;
 }
-
+.punktid{
+  list-style:inherit;
+}
 .rcorners2{
   border:20px;
   background:white;
@@ -101,7 +103,7 @@ header{
 #checkers1{
   position:relative;
   z-index:-10;
-  width:30%;
+  width:50%;
   height:100vh;
   float:right;
   background: repeating-conic-gradient(white 0% 25%, black 0% 50%) 
@@ -118,7 +120,7 @@ header{
 }
 #algpilt{
   float:left;
-  width:70%;
+  width:50%;
   overflow:hidden;
   position:relative;
   z-index:-1;
@@ -138,7 +140,6 @@ header{
   top:-16px;
   float:right;
   background:#BC8CF2;
-  display: flex;
 }
 #mainsisu{
   display:flex;
@@ -223,32 +224,41 @@ h3{
 }
 
 
-/*FOOTER */
+/*FOOTRE */
 #filler{
   width:100px;
   height:50px;
 }
 .footer {
   position: absolute;
+  margin-top:10px;
   left: 0;
   width: 100%;
   background-color: black;
   color: white;
-  text-align: center;
+  text-align:center;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
 }
 
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
 #malelauadiv{
   width:100%;
   justify-content:center;
-  text-align:center;
+  text-align:left;
 }
 .malelaud{
-
+text-align:center;
 }
 .rida{
-    margin-bottom: -5px;
+  margin-bottom:-5px;
 }
 .ruut{
             background-color: white;
@@ -284,11 +294,12 @@ h3{
   font-size: 20px;
   padding: 5px;
 
+
   /* Position the tooltip text */
   position: absolute;
   z-index: 1;
   bottom: 125%;
-  left: 50%;
+  left: -250%;
 
   /* Fade in tooltip */
   opacity: 0;
