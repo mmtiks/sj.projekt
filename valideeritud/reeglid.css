@@ -1,0 +1,160 @@
+  h4{
+    margin-left:30px;
+    text-align:center;
+    font-size:30px;
+  }
+  
+  .punktid{
+    list-style:inherit;
+  }
+  .rcorners2{
+    border:20px;
+    background:white;
+  }
+  
+  .rcorners3{
+    border-radius:20px;
+    background:#AA14F0;
+  }
+  
+  header,html{
+    position:relative;
+      background: rgb(248,248,248);
+  
+  }
+
+  /*NAV*/
+  
+
+
+  
+  
+  #neli2{
+    border: solid black 4px;
+    background:#AA14F0;
+  }
+
+  
+  #tekstid{
+    position:relative;
+    top: 90px;
+  }
+  /*ALGUS */
+  #checkers1{
+    background: repeating-conic-gradient(white 0% 25%, black 0% 50%) 
+                50% / 30vh 30vh;
+  }
+  .sidetitle{
+    color: #BC8CF2;
+    text-shadow: 3px 3px black;
+  }
+  #algpilt{
+    float:left;
+    width:50%;
+    overflow:hidden;
+    position:relative;
+    z-index:-1;
+    height:100vh;
+    background:rgb(248,248,248);
+  }
+  #nupud{
+    z-index:-1200;
+    width:100%;
+  }
+  
+  /* KESK */
+  
+  #sisu{
+    z-index:-14;
+    top:-16px;
+    background:#BC8CF2;
+  }
+
+  
+  a {
+      color: inherit;
+      text-decoration: none;
+  }
+  
+  a:hover {
+      color:#00A0C6; 
+      text-decoration:none; 
+      cursor:pointer;  
+  }
+  #malelauadiv{
+    width:100%;
+    justify-content:center;
+    text-align:left;
+  }
+  .malelaud{
+  text-align:left;
+  }
+  .rida{
+    margin-bottom:-5px;
+  }
+  .ruut{
+              background-color: white;
+              width: 75px;
+              height: 75px;
+              margin: -2px;
+              border: 1px solid black;
+              display: inline-block;
+              margin:-2px;
+              font-size: 60px;
+              text-align: center;
+          }
+          .must{
+              background-color: black;
+              color: white;
+                  }
+  
+  /* Tooltip container */
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 600%;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    padding: 5px 0;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 5px;
+  
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+  
+    /* Fade in tooltip */
+    opacity: 0;
+    transition:z opacity 0.3s;
+  }
+  
+  /* Tooltip arrow */
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
