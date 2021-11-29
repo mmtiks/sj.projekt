@@ -1,0 +1,46 @@
+body,div,ul,li,nav{
+color:black;
+}
+.rcorners2{
+border:20px;
+background:#533535;
+}
+.rcorners3{
+border-radius:20px;
+background:crimson;
+}
+header,html{
+background:url("https://upload.wikimedia.org/wikipedia/commons/9/92/Henry_Chichely%2C_Archbishop_of_Canterbury.jpg");
+}
+
+/*NAV*/
+#neli2{
+border: solid black 4px;
+background:crimson;
+z-index:100;
+}
+#tekstid{
+position:relative;
+top: 90px;
+}
+/*ALGUS */
+#checkers1{
+border-left:solid 10px rgb(175,96,114);
+background: repeating-conic-gradient(rgb(41,40,52) 0% 25%, black 0% 50%) 
+            50% / 30vh 30vh;
+}
+.sidetitle{
+color:crimson;
+text-shadow:2px 2px white;
+}
+
+/* KESK */
+#sisu{
+z-index:-14242;
+top:-16px;
+width:100%; background:url('https://media.istockphoto.com/vectors/modern-black-colored-brick-pattern-wall-texture-grunge-background-vector-id1178256942?k=20&m=1178256942&s=612x612&w=0&h=zW5Kw5grmCP__vknKBj0iEjyfBr7v7K5tIXENQ5a5wg=');
+color:white;
+}
+#maintext{
+color:white;
+}

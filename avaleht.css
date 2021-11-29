@@ -1,0 +1,51 @@
+body,div,ul,li,nav{
+color:black;
+}
+.rcorners2{
+border:20px;
+background:rgb(203,171,94);
+}
+.rcorners3{
+border-radius:20px;
+background:rgb(192,137,83);
+}
+header,html{
+    background: rgb(192,137,83);
+}
+
+/*NAV*/
+#neli2{
+border: solid black 4px;
+background:#FFF1AF;
+}
+#tekstid{
+position:relative;
+top: 90px;
+}
+
+/*ALGUS */
+#checkers1{
+background: repeating-conic-gradient(#FFF1AF 0% 25%, black 0% 50%) 
+            50% / 30vh 30vh;
+}
+.sidetitle{
+color: rgb(192,137,83);
+font-weight:1000;
+text-shadow: 3px 3px white;
+}
+#nupud{
+position:relative;
+z-index:-1;
+top:120px;
+float:right;
+width:60%;
+min-width:0px;
+max-height:100vh;
+}
+
+/* KESK */
+#sisu{
+z-index:-10;
+top:-16px;
+background:rgb(247,230,202);
+}

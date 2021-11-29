@@ -1,0 +1,203 @@
+body,div,ul,li,nav{
+margin:0;
+padding:0;
+border:0;
+font-size:100%;
+font:inherit;
+font-family: 'Montserrat', sans-serif;
+}
+ul{
+list-style:none;
+}
+
+header,html{
+font-family: Garamond;
+
+}
+header{
+position:relative;   
+}
+a {
+      color: inherit;
+      text-decoration: none;
+  }
+  
+  a:hover {
+      color:#00A0C6; 
+      text-decoration:none; 
+      cursor:pointer;  
+  }
+/*NAV*/
+
+#nav-wrap{
+width:100%;
+position:fixed;
+top:30px;
+left:1%;
+}
+.nav-btn{
+position:relative;
+left:10%;
+width:30%;
+padding:20px 0;
+text-align:center;
+cursor:pointer;
+font-size:23px;
+}
+
+#upquotes{
+position:relative;
+font-size:20px;
+
+}
+#pealkiri{
+  position: relative;
+  height: 20px;
+}
+#quotediv{
+position:relative;
+white-space: nowrap;
+overflow:hidden;
+top:-205px;
+left:260px;
+}
+#neli2{
+position:relative;
+left:1%;
+height:60px;
+}
+#n1{
+position:relative;
+left:-4%;
+top:-70px;
+font-weight:900;
+font-size:50px;
+}
+#lingid{
+width:12%;
+position:absolute;
+left:5%;
+min-width:90px;
+border: solid black 5px;
+height:300px;
+background-color: rgba(255,255,255,0.8);
+
+}
+#tekstid{
+position:relative;
+top: 90px;
+}
+/*ALGUS */
+#checkers1{
+position:relative;
+z-index:-10;
+top:-16px;
+width:40%;
+height:103vh;
+float:right;
+text-align:center;
+overflow:hidden;
+}
+.sidetitle{
+position:relative;
+top:15%;
+font-size:40px;
+}
+/* KESKMINE OSA / PÕHILINE SISU */
+
+#sisu{
+position:relative;
+float:right;
+background:rgb(247,230,202);
+}
+#mainsisu{
+display:flex;
+}
+#maintext{
+padding:40px;
+line-height:1.6;
+}
+.pildipaar{
+cursor:pointer;
+position:relative;
+display:flex;
+justify-content: space-around;
+width:100%;
+}
+.raam1{
+position:relative;
+vertical-align: top;
+display: inline-block;
+text-align: center;
+width: 40%;
+justify-content:center;
+}
+.tekstipilt{
+padding:10px;
+width:95%;
+}
+.tekstipilt1{
+float:left;
+}
+.tekstipilt2{ 
+float:right;
+}
+h3{
+text-align:center;
+padding:20px;
+}
+
+
+/* Alumine nav */
+
+#loeveel{
+cursor:pointer;
+position:relative;
+width:fit-content;
+padding:10px;
+color:black;
+margin-top:60px;
+margin-bottom:60px;
+left:45%;
+}
+
+#pildid{
+cursor:pointer;
+position:relative;
+display:flex;
+justify-content: space-around;
+width:100%;
+}
+#pilt1,#pilt2,#pilt3{
+width:290px;
+min-width:290px;
+border:solid rgb(237,235,233) 5px;
+height: 290px;
+}
+
+.raam{
+vertical-align: top;
+display: inline-block;
+text-align: center;
+width: 300px;
+}
+.caption{
+display:block;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+/*FOOTER */
+
+#filler{
+width:100px;
+height:50px;
+}
+.footer{
+position: absolute;
+left: 0;
+width: 100%;
+background-color: black;
+color: white;
+text-align: center;
+}
