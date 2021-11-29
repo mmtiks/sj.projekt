@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="main.js"></script>
+	<link rel = "stylesheet" href = "main.css">
+	<link rel="stylesheet" href="reeglid.css">
+	<title>Reeglid</title>
+</head>
+<body>
+    <nav>
+      <div id='lingid'>
+        <div id='tekstid'>
+        	<ul>
+            <li class="nav-btn" id="n2" onclick="location.href='./reeglid.html';" style="cursor: pointer;">reeglid</li>
+            <li class="nav-btn" id="n3" onclick="location.href='./avangud.html';" style="cursor: pointer;">avangud</li>
+            <li class="nav-btn" id="n4" onclick="location.href='./galerii.html';" style="cursor: pointer;">galerii</li>
+           </ul>
+        </div>
+      </div>
+      <div id="nav-wrap">
+        <div id='neli2'>
+        	<div id="pealkiri">
+            <h3 class="nav-btn" id="n1">4:2 </h3>
+            <a id="bannerLink" class="center" onclick="void window.open(this.href); return false;" href='https://et.wikipedia.org/wiki/Garri_Kasparov'>
+            <div id='quotediv'>
+            <p id='upquotes'>“Chess is life in miniature. Chess is a struggle, chess battles.” – Garry Kasparov</p></div></a>
+          </div>
+        </div>
+      </div>
+      <div id="checkers1">
+        <div class='paralax-title'>
+          <div id='t2hed'>
+          <h2 class = 'sidetitle'>M</h2>
+          <h2 class = 'sidetitle'>A</h2>
+          <h2 class = 'sidetitle'>L</h2>
+          <h2 class = 'sidetitle'>E</h2>
+          <h2 class = 'sidetitle'>S</h2>
+          <h2 class = 'sidetitle'>T</h2>
+          </div>
+        </div>
+      </div>
+      <img alt='taust' id ="nupud" src="https://www.schach-chess.com/media/english/Chess_Books/chess-training.jpg"/>
+    </nav>
+  <!-- alumised kolm pilti --> 
+  <div id="sisu">
+    <div id ='mainsisu'>
+      <div id='maintext'>
+        <div class ='pildipaar'>
+          <div class='raam1 rcorners2'>
+            <img alt = "tekstipilt1" id = "tekstipilt1" class='tekstipilt' src ="https://www.vint.ee/images/games/chess/rules/queenmov.jpg"/>
+            <div class="caption">Lipu võimalikud käigud</div>
+          </div>
+          <div  class='raam1 rcorners2'>
+            <img alt = "tekstipilt2" id = "tekstipilt2" class = 'tekstipilt' src ="https://www.vint.ee/images/games/chess/rules/knigmove.jpg"/>
+            <div class="caption">Ratsu võimalikud käigud</div>
+          </div>
+        </div>
+        <h2>Üldreeglid:</h2>
+        	<ul class="punktid">
+        		<li>Käimist alustab valgete (heledate) malenditega mängija.</li>
+        		<li>Käia saab kas tühjale ruudule või vastase nupu poolt hõivatud ruudule.</li>
+        		<li>Vastase nupu võtmiseks tuleb teha reeglitepärane käik nii, et sinu nupp jääks võetava nupu ruudule.</li>
+        		<li>Males ei ole võtmine kohustuslik.</li>
+        	</ul>
+        <div id='malelauadiv'>
+        <div class="malelaud">	
+        <h2>Liigu hiirega nupule, et saada tema kohta infot.</h2>	
+		<div>
+			<div class="ruut"> 
+					<div class="tooltip">&#9814;
+  						<div class="tooltiptext">
+  							<h2>&#9814; Vanker</h2>
+  							<p>Liigub sirgelt mööda vertikaale ja horisontaale.
+  							</p>
+  						</div>
+					</div>
+			</div>
+			<div class="ruut must">
+				<div class="tooltip">&#9816;
+  						<div class="tooltiptext">
+  							<h2>&#9822; Ratsu</h2>
+  							<p>Teeb L-kujulisi käike: 1 otse, 2 kõrvale või 2 otse, 1 kõrvale. Oskab "hüpata" üle teiste malendite.
+  							</p>
+  						</div>
+					</div>
+			</div>
+			<div class="ruut">
+				<div class="tooltip">&#9815;
+  						<div class="tooltiptext">
+  							<h2>&#9821; Oda</h2>
+  							<p>Liigub mööda diagonaali, ainult üht värvi ruutudel.</p>
+  						</div>
+				</div>
+			</div>
+			<div class="ruut must">
+				<div class="tooltip">&#9812;
+  						<div class="tooltiptext">
+  							<h2>&#9812; Kuningas</h2>
+  							<p>Liigub igas suunas, üks ruut korraga.</p>
+  						</div>
+				</div>
+			</div>
+			<div class="ruut">
+				<div class="tooltip">&#9813;
+  						<div class="tooltiptext">
+  							<h2>&#9819; Lipp</h2>
+  							<p>Liigub igas suunas - horisontaalis, vertikaalis või diagonaalis.</p>
+  						</div>
+				</div>
+			</div>
+			<div class="ruut must">
+				<div class="tooltip">&#9815;
+  						<div class="tooltiptext">
+  							<h2>&#9821; Oda</h2>
+  							<p>Liigub mööda diagonaali, ainult üht värvi ruutudel.
+				</div>
+			</div>
+		</div>
+			<div class="ruut">
+				<div class="tooltip">&#9816;
+  						<div class="tooltiptext">
+  							<h2>&#9822; Ratsu</h2>
+  							<p>Teeb L-kujulisi käike: 1 otse, 2 kõrvale või 2 otse, 1 kõrvale. Oskab "hüpata" üle teiste malendite.
+  							</p>
+  						</div>
+					</div>	
+			</div>
+			<div class="ruut must">
+				<div class="tooltip">&#9814;
+  						<div class="tooltiptext">
+  							<h2>&#9814; Vanker</h2>
+  							<p>Liigub sirgelt mööda vertikaale ja horisontaale.
+  							</p>
+  						</div>
+					</div>
+			</div>
+		</div>
+		<div>
+			<div class="ruut must">
+				<div class="tooltip">&#9817;
+  						<div class="tooltiptext">
+  							<h2>&#9817; Ettur</h2>
+  							<p>Liigub ühe ruudu kaupa vertikaalis edasi, kuid ründab ainult diagonaalis edasi.
+  							</p>
+  						</div>
+				</div>
+			</div>
+			<div class="ruut">
+				<div class="tooltip">&#9817;
+  						<div class="tooltiptext">
+  							<h2>&#9817; Ettur</h2>
+  							<p>Liigub ühe ruudu kaupa vertikaalis edasi, kuid ründab ainult diagonaalis edasi.
+  							</p>
+  						</div>
+				</div>
+			</div>
+			<div class="ruut must">
+				<div class="tooltip">&#9817;
+  						<div class="tooltiptext">
+  							<h2>&#9817; Ettur</h2>
+  							<p>Liigub ühe ruudu kaupa vertikaalis edasi, kuid ründab ainult diagonaalis edasi.
+  							</p>
+  						</div>
+				</div>
+			</div>
+			<div class="ruut">
+				<div class="tooltip">&#9817;
+  						<div class="tooltiptext">
+  							<h2>&#9817; Ettur</h2>
+  							<p>Liigub ühe ruudu kaupa vertikaalis edasi, kuid ründab ainult diagonaalis edasi.
+  							</p>
+  						</div>
+				</div>
+			</div>
+			<div class="ruut must">
+				<div class="tooltip">&#9817;
+  						<div class="tooltiptext">
+  							<h2>&#9817; Ettur</h2>
+  							<p>Liigub ühe ruudu kaupa vertikaalis edasi, kuid ründab ainult diagonaalis edasi.
+  							</p>
+  						</div>
+				</div>
+			</div>
+			<div class="ruut">
+				<div class="tooltip">&#9817;
+  						<div class="tooltiptext">
+  							<h2>&#9817; Ettur</h2>
+  							<p>Liigub ühe ruudu kaupa vertikaalis edasi, kuid ründab ainult diagonaalis edasi.
+  							</p>
+  						</div>
+				</div>
+			</div>
+			<div class="ruut must">
+				<div class="tooltip">&#9817;
+  						<div class="tooltiptext">
+  							<h2>&#9817; Ettur</h2>
+  							<p>Liigub ühe ruudu kaupa vertikaalis edasi, kuid ründab ainult diagonaalis edasi.
+  							</p>
+  						</div>
+				</div>
+			</div>
+			<div class="ruut">
+				<div class="tooltip">&#9817;
+  						<div class="tooltiptext">
+  							<h2>&#9817; Ettur</h2>
+  							<p>Liigub ühe ruudu kaupa vertikaalis edasi, kuid ründab ainult diagonaalis edasi.
+  							</p>
+  						</div>
+				</div>
+			</div>
+		</div>
+		<div class="rida">
+			<div class="ruut"></div>
+			<div class="ruut must"></div>
+			<div class="ruut"></div>
+			<div class="ruut must"></div>
+			<div class="ruut"></div>
+			<div class="ruut must"></div>
+			<div class="ruut"></div>
+			<div class="ruut must"></div>
+		</div>
+		<div class="rida">
+			<div class="ruut must"></div>
+			<div class="ruut"></div>
+			<div class="ruut must"></div>
+			<div class="ruut"></div>
+			<div class="ruut must"></div>
+			<div class="ruut"></div>
+			<div class="ruut must"></div>
+			<div class="ruut"></div>
+		</div>
+		<div class="rida">
+			<div class="ruut"></div>
+			<div class="ruut must"></div>
+			<div class="ruut"></div>
+			<div class="ruut must"></div>
+			<div class="ruut"></div>
+			<div class="ruut must"></div>
+			<div class="ruut"></div>
+			<div class="ruut must"></div>
+		</div>
+		<div class="rida">
+			<div class="ruut must"></div>
+			<div class="ruut"></div>
+			<div class="ruut must"></div>
+			<div class="ruut"></div>
+			<div class="ruut must"></div>
+			<div class="ruut"></div>
+			<div class="ruut must"></div>
+			<div class="ruut"></div>
+		</div>
+	<div>
+		<div>
+			<div class="ruut">
+				<div class="tooltip">&#9823;
+  						<div class="tooltiptext">
+  							<h2>&#9817; Ettur</h2>
+  							<p>Liigub ühe ruudu kaupa vertikaalis edasi, kuid ründab ainult diagonaalis edasi.
+  							</p>
+  						</div>
+				</div>
+			</div>
+			<div class="ruut must">
+				<div class="tooltip">&#9823;
+  						<div class="tooltiptext">
+  							<h2>&#9817; Ettur</h2>
+  							<p>Liigub ühe ruudu kaupa vertikaalis edasi, kuid ründab ainult diagonaalis edasi.
+  							</p>
+  						</div>
+  					</div>
+  				</div>
+  			<div class="ruut">
+				<div class="tooltip">&#9823;
+  						<div class="tooltiptext">
+  							<h2>&#9817;Ettur</h2>
+  							<p>Liigub ühe ruudu kaupa vertikaalis edasi, kuid ründab ainult diagonaalis edasi.
+  							</p>
+  						</div>
+				</div>
+			</div>
+			<div class="ruut must">
+				<div class="tooltip">&#9823;
+  						<div class="tooltiptext">
+  							<h2>&#9817; Ettur</h2>
+  							<p>Liigub ühe ruudu kaupa vertikaalis edasi, kuid ründab ainult diagonaalis edasi.
+  							</p>
+  						</div>
+  					</div>
+  				</div>
+  			<div class="ruut">
+				<div class="tooltip">&#9823;
+  						<div class="tooltiptext">
+  							<h2>&#9817; Ettur</h2>
+  							<p>Liigub ühe ruudu kaupa vertikaalis edasi, kuid ründab ainult diagonaalis edasi.
+  							</p>
+  						</div>
+				</div>
+			</div>
+			<div class="ruut must">
+				<div class="tooltip">&#9823;
+  						<div class="tooltiptext">
+  							<h2>&#9817; Ettur</h2>
+  							<p>Liigub ühe ruudu kaupa vertikaalis edasi, kuid ründab ainult diagonaalis edasi.
+  							</p>
+  						</div>
+  					</div>
+  				</div>
+  			<div class="ruut">
+				<div class="tooltip">&#9823;
+  						<div class="tooltiptext">
+  							<h2>&#9817; Ettur</h2>
+  							<p>Liigub ühe ruudu kaupa vertikaalis edasi, kuid ründab ainult diagonaalis edasi.
+  							</p>
+  						</div>
+				</div>
+			</div>
+			<div class="ruut must">
+				<div class="tooltip">&#9823;
+  						<div class="tooltiptext">
+  							<h2>&#9817; Ettur</h2>
+  							<p>Liigub ühe ruudu kaupa vertikaalis edasi, kuid ründab ainult diagonaalis edasi.
+  							</p>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+		<div>
+			<div class="ruut must">
+				<div class="tooltip">&#9820;
+  						<div class="tooltiptext">
+  							<h2>&#9814; Vanker</h2>
+  							<p>Liigub mööda vertikaale ja horisontaale</p>
+  						</div>
+				</div>
+			</div>
+			<div class="ruut">
+				<div class="tooltip">&#9822;
+  						<div class="tooltiptext">
+  							<h2>&#9822; Ratsu</h2>
+  							<p>Teeb L-kujulisi käike: 1 otse, 2 kõrvale või 2 otse, 1 kõrvale. Oskab "hüpata" üle teiste malendite.
+  							</p>
+  						</div>
+				</div>
+			</div>
+			<div class="ruut must">
+				<div class="tooltip">&#9821;
+  						<div class="tooltiptext">
+  							<h2>&#9821; Oda</h2>
+  							<p>Liigub mööda diagonaali, ainult üht värvi ruutudel.
+				</div>
+			</div>
+		</div>
+			<div class="ruut">
+				<div class="tooltip">&#9818;
+  						<div class="tooltiptext">
+  							<h2>&#9812; Kuningas</h2>
+  							<p>Liigub igas suunas, üks ruut korraga.</p>
+  						</div>
+				</div>
+			</div>
+			<div class="ruut must">
+				<div class="tooltip">&#9819;
+  						<div class="tooltiptext">
+  							<h2>&#9819; Lipp</h2>
+  							<p>Liigub igas suunas - horisontaalis, vertikaalis või diagonaalis.</p>
+  						</div>
+				</div>
+			</div>
+			<div class="ruut">
+				<div class="tooltip">&#9821;
+  						<div class="tooltiptext">
+  							<h2>&#9821; Oda</h2>
+  							<p>Liigub mööda diagonaali, ainult üht värvi ruutudel.
+				</div>
+			</div>
+		</div>
+			<div class="ruut must">
+				<div class="tooltip">&#9822;
+  						<div class="tooltiptext">
+  							<h2>&#9822; Ratsu</h2>
+  							<p>Teeb L-kujulisi käike: 1 otse, 2 kõrvale või 2 otse, 1 kõrvale. Oskab "hüpata" üle teiste malendite.
+  							</p>
+				</div>
+			</div>
+		</div>
+			<div class="ruut">
+				<div class="tooltip">&#9820;
+  						<div class="tooltiptext">
+  							<h2>&#9814; Vanker</h2>
+  							<p>Liigub mööda vertikaale ja horisontaale</p>
+  						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+		<h2>Tuli</h2>
+		<p>Kui sinu kuningat saab võtta vastase nupuga, siis öeldakse, et kuningas on tule all. NB! Keelatud on teha käiku nii, et sinu kuningas jääb tule alla.</p>
+		<h2>Matt</h2>
+		<p>Kui sinu kuningas on tule all ning sul ei ole võimalik teha ühtegi käiku nii, et peale käigu tegemist ei oleks kuningas enam tule all, siis öeldakse, et tegemist on mati seisuga. Mati saanud mängija kaotab mängu	
+		</p>
+		<h2>Patt</h2>
+		<p>Kui mängija kuningas ei ole tule all, kuid ta ei saa teha ühtegi käiku (ilma tule alla sattumata), siis öeldakse, et tegemist on patiseisuga. Patiseis tähendab,et mäng lõppes viigiga.</p>
+      </div>
+     <h3 id = "loeveel" class='rcorners3' onclick="location.href='https://www.vint.ee/et-ee/chess-rules#Traditsioonilise%20male%20reeglid'">LOE VEEL </h3>
+        <div id='pildid' class= 'container'>
+          <div class='rcorners3 raam' onclick="location.href='./avaleht.html';" style="cursor: pointer;">
+            <img alt = "pilt1" id = "pilt1" src ="https://www.regencychess.co.uk/images/RCPB254_04.jpg"/>
+            <div class="caption">Avaleht</div>
+          </div>
+          <div class='rcorners3 raam' onclick="location.href='./galerii.html';" style="cursor: pointer;">
+            <img alt = "pilt2" id = "pilt2" src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2QZBiAKvgkkNjGwWhzJqT0QPyfSeNM7XL4A&usqp=CAU"/>
+            <div class="caption">Male läbi ajaloo</div>
+          </div>
+          <div class='rcorners3 raam' onclick="location.href='./avangud.html';" style="cursor: pointer;">
+            <img alt = "pilt3" id = "pilt3" src ="https://cdn.discordapp.com/attachments/905196487439429672/914162913902723073/file-20200708-47-mexhsj.png"/>
+            <div class="caption">Avangud</div>
+      </div>
+      </div>
+    </div>
+  </div>
+      <div class="footer">
+        <p>Lehekülg on valminud aine Sissejuhatus erialasse raames aastal 2021 Tartu Ülikoolis. Autorid: Mihkel Tiks, Toomas Sepp, Herbert Konnula</p>
+    </div>
+  </div>
+</body>
+</html>
