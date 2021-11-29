@@ -61,7 +61,7 @@ h4{
   }
   
   /* KESK */
-  
+
   #sisu{
     z-index:-14;
     top:-16px;
@@ -72,6 +72,9 @@ h4{
     width:100%;
     justify-content:center;
     text-align:left;
+  }
+  #pildid{
+    margin-bottom: 0;
   }
   .malelaud{
   text-align:left;
