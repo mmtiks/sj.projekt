@@ -39,6 +39,8 @@ h4{
   #checkers1{
     background: repeating-conic-gradient(white 0% 25%, black 0% 50%) 
                 50% / 30vh 30vh;
+    width: 50%;
+    height: 145vh;
   }
   .sidetitle{
     color: #BC8CF2;
@@ -53,7 +55,9 @@ h4{
     height:100vh;
     background:rgb(248,248,248);
   }
-
+  #nupud{
+    z-index:-1200;
+    width:50%;
   }
   
   /* KESK */
@@ -63,7 +67,6 @@ h4{
     top:-16px;
     background:#BC8CF2;
   }
-
   #malelauadiv{
     width:100%;
     justify-content:center;

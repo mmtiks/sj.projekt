@@ -50,7 +50,10 @@ position:relative;
 font-size:20px;
 
 }
-
+#pealkiri{
+  position: relative;
+  height: 20px;
+}
 #quotediv{
 position:relative;
 white-space: nowrap;
